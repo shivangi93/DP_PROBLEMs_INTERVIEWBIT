@@ -15,7 +15,7 @@ class Solution:
         k=0
         i=0
         ### if difference is not zero then we need to check other combinations that can be replaced with the minimum value without changing the length of the result and whose index
-        is lesser than the minimum index as we need lexicographically smallest order of friends to kick Tushar ###
+        ###is lesser than the minimum index as we need lexicographically smallest order of friends to kick Tushar ###
         
         while diff>0 and i<minindex and k<len(result):
             if B[i]-minvalue<=diff:
